@@ -1,0 +1,78 @@
+.title-section {
+  text-transform: uppercase;
+  background-image: url("/src/img/main-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title-content__wrapper {
+  min-height: 100vh;
+  padding-top: 150px;
+  display: grid;
+  grid-template-areas:
+    a a a
+    b b b
+    c c c;
+  gap: 60px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeText {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 20px 0;
+  animation: fadeText 0.6s ease;
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 10px 0;
+  letter-spacing: 10px;
+  animation: fadeText 0.6s ease;
+}
+.title-btn__wrapper {
+  margin-top: 50px;
+}
+.title-btn {
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: #3c7bf1;
+  border-radius: 25px;
+  color: #e0e0e0;
+  animation: BtnColor;
+  box-shadow: rgba(216, 179, 179, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.7s;
+  &:hover {
+    background-color: darken(#3e3e3e, 5);
+    box-shadow: none;
+  }
+}
