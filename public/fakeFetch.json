@@ -6,6 +6,14 @@
     "dueDate": "new Date(2023, 6, 25)",
     "status": "open"
   },
+
+  {
+    "title": "Task 1",
+    "description": "Lorem ipsum dolor sit amet",
+    "assignee": "Alice",
+    "dueDate": "new Date(2023, 9, 25)",
+    "status": "open"
+  },
   {
     "title": "Task 2",
     "description": "Consectetur adipiscing elit",
@@ -45,49 +53,49 @@
     "title": "Task 7",
     "description": "Sunt in culpa qui officia deserunt mollit",
     "assignee": "Frank",
-    "dueDate": "new Date(2023, 4, 8)",
+    "dueDate": "new Date(2023, 8, 8)",
     "status": "in progress"
   },
   {
     "title": "Task 8",
     "description": "Excepteur sint occaecat cupidatat non proident",
     "assignee": "Grace",
-    "dueDate": "new Date(2023, 4, 12)",
+    "dueDate": "new Date(2023, 7, 12)",
     "status": "completed"
   },
   {
     "title": "Task 9",
     "description": "Sunt in culpa qui officia deserunt mollit",
     "assignee": "Alice",
-    "dueDate": "new Date(2023, 4, 15)",
+    "dueDate": "new Date(2023, 9, 15)",
     "status": "open"
   },
   {
     "title": "Task 10",
     "description": "Lorem ipsum dolor sit amet",
     "assignee": "Helen",
-    "dueDate": "new Date(2023, 4, 20)",
+    "dueDate": "new Date(2023, 8, 20)",
     "status": "in progress"
   },
   {
     "title": "Task 11",
     "description": "Adipiscing elit, sed do eiusmod tempor incididunt",
     "assignee": "Isaac",
-    "dueDate": "new Date(2023, 2, 5)",
+    "dueDate": "new Date(2023, 9, 5)",
     "status": "completed"
   },
   {
     "title": "Task 12",
     "description": "Dolore magna aliqua. Ut enim ad minim veniam",
     "assignee": "Jane",
-    "dueDate": "new Date(2023, 2, 10)",
+    "dueDate": "new Date(2023, 9, 10)",
     "status": "open"
   },
   {
     "title": "Task 13",
     "description": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
     "assignee": "Kevin",
-    "dueDate": "new Date(2023, 2, 15)",
+    "dueDate": "new Date(2023, 8, 15)",
     "status": "in progress"
   },
   {
@@ -101,56 +109,56 @@
     "title": "Task 15",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
     "assignee": "Linda",
-    "dueDate": "new Date(2023, 2, 25)",
+    "dueDate": "new Date(2023, 7, 25)",
     "status": "completed"
   },
   {
     "title": "Task 16",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "assignee": "Mike",
-    "dueDate": "new Date(2023, 3, 5)",
+    "dueDate": "new Date(2023, 9, 5)",
     "status": "open"
   },
   {
     "title": "Task 17",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     "assignee": "Nancy",
-    "dueDate": "new Date(2023, 3, 8)",
+    "dueDate": "new Date(2023, 8, 8)",
     "status": "in progress"
   },
   {
     "title": "Task 18",
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
     "assignee": "Oliver",
-    "dueDate": "new Date(2023, 3, 12)",
+    "dueDate": "new Date(2023, 6, 12)",
     "status": "completed"
   },
   {
     "title": "Task 19",
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
     "assignee": "Paula",
-    "dueDate": "new Date(2023, 3, 16)",
+    "dueDate": "new Date(2023, 7, 16)",
     "status": "open"
   },
   {
     "title": "Task 20",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
     "assignee": "Quincy",
-    "dueDate": "new Date(2023, 3, 22)",
+    "dueDate": "new Date(2023, 8, 22)",
     "status": "in progress"
   },
   {
     "title": "Task 19",
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
     "assignee": "Paula",
-    "dueDate": "new Date(2023, 3, 16)",
+    "dueDate": "new Date(2023, 7, 16)",
     "status": "open"
   },
   {
     "title": "Task 19",
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
     "assignee": "Paula",
-    "dueDate": "new Date(2023, 3, 16)",
+    "dueDate": "new Date(2023, 7, 16)",
     "status": "open"
   },
   {

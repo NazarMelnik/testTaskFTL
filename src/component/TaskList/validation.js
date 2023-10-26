@@ -20,7 +20,7 @@ export default function objCreator(data) {
         const targetDate = new Date(eval(dataStr));
         const currentDate = new Date();
         const timeDiff = targetDate - currentDate;
-        const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24) / -7);
+        const daysDiff = Math.floor(timeDiff / 604800000);
         const weeksKey = `${daysDiff}Weeks`;
         if (dueDateStats[weeksKey]) {
           dueDateStats[weeksKey]++;

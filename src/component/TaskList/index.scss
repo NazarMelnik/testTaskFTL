@@ -9,20 +9,18 @@
   min-height: 100vh;
 }
 
-.title-content__wrapper {
+.title-section__content {
   min-height: 100vh;
   padding-top: 150px;
-  display: grid;
-  align-items: center;
-  grid-template-areas:
-    a a a
-    b b b
-    c c c;
+  display: flex;
+  flex-direction: column;
   gap: 60px;
-  @media (max-width: 993px) {
+}
+
+@media (max-width: 993px) {
+  .title-section__content {
     gap: 20px;
   }
-  animation: fadeIn 1s ease-in;
 }
 
 @keyframes fadeIn {
@@ -35,6 +33,7 @@
     transform: translateY(0);
   }
 }
+
 @keyframes fadeText {
   from {
     opacity: 0;
@@ -45,7 +44,21 @@
     transform: translateX(0);
   }
 }
-h1 {
+
+.title-section__completed-tasks {
+  font-size: 60px;
+  margin: 10px 0;
+  letter-spacing: 10px;
+  animation: fadeText 0.6s ease;
+}
+
+@media (max-width: 993px) {
+  .title-section__completed-tasks {
+    font-size: 44px;
+  }
+}
+
+.title-section__total-tasks {
   font-size: 36px;
   font-weight: 400;
   line-height: 25px;
@@ -53,37 +66,35 @@ h1 {
   animation: fadeText 0.6s ease;
   padding: 20px;
   letter-spacing: 10px;
-  @media (max-width: 993px) {
+}
+
+@media (max-width: 993px) {
+  .title-section__total-tasks {
     font-size: 24px;
   }
 }
 
-h2 {
-  font-size: 60px;
-  margin: 10px 0;
-  letter-spacing: 10px;
-  animation: fadeText 0.6s ease;
-  @media (max-width: 993px) {
-    font-size: 44px;
-  }
-}
-.title-btn__wrapper {
+.title-section__button-wrapper {
   margin-top: 50px;
 }
-.title-btn {
+
+.title-section__button {
   padding: 10px 40px;
   font-size: 20px;
   background-color: #3c7bf1;
   border-radius: 25px;
+
   @media (max-width: 993px) {
     padding: 20px 40px;
   }
+
   color: #e0e0e0;
   animation: BtnColor;
   box-shadow: rgba(216, 179, 179, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: 0.7s;
+
   &:hover {
     background-color: darken(#3e3e3e, 5);
     box-shadow: none;
